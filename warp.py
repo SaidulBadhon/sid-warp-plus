@@ -9,7 +9,7 @@ import sys
 os.system("title WARP+ UNLIMITED")
 os.system('cls' if os.name == 'nt' else 'clear')
 print ("[+] Script by adnansid99")
-referrer = "e83d7236-1a99-42af-aef2-620702364928"
+referrer = os.environ.get("WARP_ID")
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
