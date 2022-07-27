@@ -8,7 +8,7 @@ import os
 import sys
 os.system("title WARP+ UNLIMITED")
 os.system('cls' if os.name == 'nt' else 'clear')
-print ("[+] Script by adnansid99")
+print ("[+] Script by saidulbadhon")
 referrer = os.environ.get("WARP_ID")
 def genString(stringLength):
 	try:
